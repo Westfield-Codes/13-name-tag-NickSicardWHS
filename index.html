@@ -1,66 +1,48 @@
-<!-- Don't touch this! -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Nametag Creator</title>
+<head>
+    <title>Hello Name Tag</title>
     <style>
-    .nametag {
-      width:800px;
-      height:500px;
-      border:2px solid magenta;
-      background-color:rgba(255, 255, 255, 0.884);
+        .nametag {
+            width: 800px;
+            height: 400px;
+            border: 2px solid #ccc;
+            border-radius: 30px;
+            font-family: Arial;
+            text-align: center;
+            margin: auto;
+           
+        }
 
-      display:block;
-      margin:auto;
-      border-radius:30px;
-      box-shadow:10px solid magenta;
-      font:italic;
-      font-size:90px;
-      color:rgb(255, 255, 255);
-    }
+        .top {
+            background-color: rgb(240, 73, 198);
+            color: white;
+            padding: 20px;
+            font-size: 40px;
+            border-radius:30px;
+            font-size:100px;
+        }
 
-    H1 {
-      text-align:center;
-      background-color:magenta;
-      position:relative;
-  
-    }
+        .middle {
+            color: hotpink;
+            font-size: 28px;
+            padding: 25px;
+            height: 80px; 
+        }
 
-    h3 {
-      color:magenta;
-    }
-
-
-    .line {
-      background-color:magenta;
-      height:10px;
-      width:800px;
-    }
-
-    .text1 {
-      float:top;
-    }
+        .bottom-line {
+            border-top: 5px solid hotpink;
+            margin: 0 20px 20px 20px;
+        }
     </style>
-  </head>
-  <body>
-     
-<div class=nametag>
+</head>
+<body>
 
-
-
-
-<div class="Text1">
-
-<h1>HELLO</h1>
-
-<h3>My Name Is</h3>
-<div class="Line">
-
-
+<div class="nametag">
+    <div class="top">HELLO</div>
+    <div class="middle">My Name Is</div>
+    <div class="bottom-line"></div>
 </div>
-  </div>
-    </div>
-  <img src="nametag.jpg" width="800px">
-  <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
